@@ -23,15 +23,15 @@
 		8A2D2C292BFE680900FF9A63 /* UniversityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C282BFE680900FF9A63 /* UniversityListView.swift */; };
 		8A2D2C2F2BFE68D800FF9A63 /* UniversityAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C2E2BFE68D800FF9A63 /* UniversityAPIModel.swift */; };
 		8A2D2C312BFE692800FF9A63 /* UniversityListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C302BFE692800FF9A63 /* UniversityListInteractor.swift */; };
-		8A2D2C332BFE694E00FF9A63 /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C322BFE694E00FF9A63 /* UniversityListPresenter.swift */; };
 		8A2D2C352BFE696A00FF9A63 /* UniversityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C342BFE696A00FF9A63 /* UniversityListRouter.swift */; };
 		8A2D2C372BFE69DF00FF9A63 /* UniversityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C362BFE69DF00FF9A63 /* UniversityRepository.swift */; };
 		8A2D2C3A2BFE6A6200FF9A63 /* UniversitiesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C392BFE6A6200FF9A63 /* UniversitiesRequest.swift */; };
 		8A2D2C3C2BFE6AF300FF9A63 /* UniversityPersistenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C3B2BFE6AF300FF9A63 /* UniversityPersistenceModel.swift */; };
-		8A2D2C3E2BFE799200FF9A63 /* UniversityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C3D2BFE799200FF9A63 /* UniversityDetailsView.swift */; };
 		8A2D2C402BFE79BB00FF9A63 /* UniversityDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C3F2BFE79BB00FF9A63 /* UniversityDetailsInteractor.swift */; };
-		8A2D2C422BFE79D600FF9A63 /* UniversityDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C412BFE79D600FF9A63 /* UniversityDetailsPresenter.swift */; };
-		8A2D2C442BFE79EE00FF9A63 /* UniversityDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D2C432BFE79EE00FF9A63 /* UniversityDetailsRouter.swift */; };
+		8A3FF06A2BFE997900C7B394 /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FF0692BFE997900C7B394 /* UniversityListPresenter.swift */; };
+		8A3FF06C2BFE998B00C7B394 /* UniversityDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FF06B2BFE998B00C7B394 /* UniversityDetailsRouter.swift */; };
+		8A3FF06E2BFE999600C7B394 /* UniversityDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FF06D2BFE999600C7B394 /* UniversityDetailsPresenter.swift */; };
+		8A3FF0702BFE999D00C7B394 /* UniversityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FF06F2BFE999D00C7B394 /* UniversityDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,15 +70,15 @@
 		8A2D2C282BFE680900FF9A63 /* UniversityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UniversityListView.swift; path = UniversitiesApp/UniversitiesList/View/UniversityListView.swift; sourceTree = SOURCE_ROOT; };
 		8A2D2C2E2BFE68D800FF9A63 /* UniversityAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityAPIModel.swift; sourceTree = "<group>"; };
 		8A2D2C302BFE692800FF9A63 /* UniversityListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListInteractor.swift; sourceTree = "<group>"; };
-		8A2D2C322BFE694E00FF9A63 /* UniversityListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UniversityListPresenter.swift; path = UniversitiesApp/UniversitiesList/Interactor/UniversityListPresenter.swift; sourceTree = SOURCE_ROOT; };
 		8A2D2C342BFE696A00FF9A63 /* UniversityListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListRouter.swift; sourceTree = "<group>"; };
 		8A2D2C362BFE69DF00FF9A63 /* UniversityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityRepository.swift; sourceTree = "<group>"; };
 		8A2D2C392BFE6A6200FF9A63 /* UniversitiesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesRequest.swift; sourceTree = "<group>"; };
 		8A2D2C3B2BFE6AF300FF9A63 /* UniversityPersistenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityPersistenceModel.swift; sourceTree = "<group>"; };
-		8A2D2C3D2BFE799200FF9A63 /* UniversityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UniversityDetailsView.swift; path = UniversitiesApp/UniversitiesList/Interactor/Repo/UniversityDetailsView.swift; sourceTree = SOURCE_ROOT; };
 		8A2D2C3F2BFE79BB00FF9A63 /* UniversityDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsInteractor.swift; sourceTree = "<group>"; };
-		8A2D2C412BFE79D600FF9A63 /* UniversityDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UniversityDetailsPresenter.swift; path = UniversitiesApp/UniversityDetails/Interactor/UniversityDetailsPresenter.swift; sourceTree = SOURCE_ROOT; };
-		8A2D2C432BFE79EE00FF9A63 /* UniversityDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UniversityDetailsRouter.swift; path = UniversitiesApp/UniversityDetails/Interactor/UniversityDetailsRouter.swift; sourceTree = SOURCE_ROOT; };
+		8A3FF0692BFE997900C7B394 /* UniversityListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListPresenter.swift; sourceTree = "<group>"; };
+		8A3FF06B2BFE998B00C7B394 /* UniversityDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityDetailsRouter.swift; sourceTree = "<group>"; };
+		8A3FF06D2BFE999600C7B394 /* UniversityDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityDetailsPresenter.swift; sourceTree = "<group>"; };
+		8A3FF06F2BFE999D00C7B394 /* UniversityDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +210,7 @@
 		8A2D2C132BFE66C700FF9A63 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				8A2D2C322BFE694E00FF9A63 /* UniversityListPresenter.swift */,
+				8A3FF0692BFE997900C7B394 /* UniversityListPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 		8A2D2C1E2BFE674700FF9A63 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				8A2D2C412BFE79D600FF9A63 /* UniversityDetailsPresenter.swift */,
+				8A3FF06D2BFE999600C7B394 /* UniversityDetailsPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 		8A2D2C1F2BFE674700FF9A63 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8A2D2C3D2BFE799200FF9A63 /* UniversityDetailsView.swift */,
+				8A3FF06F2BFE999D00C7B394 /* UniversityDetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 		8A2D2C232BFE674700FF9A63 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				8A2D2C432BFE79EE00FF9A63 /* UniversityDetailsRouter.swift */,
+				8A3FF06B2BFE998B00C7B394 /* UniversityDetailsRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -425,19 +425,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A2D2C2F2BFE68D800FF9A63 /* UniversityAPIModel.swift in Sources */,
-				8A2D2C3E2BFE799200FF9A63 /* UniversityDetailsView.swift in Sources */,
+				8A3FF06C2BFE998B00C7B394 /* UniversityDetailsRouter.swift in Sources */,
 				8A2D2C292BFE680900FF9A63 /* UniversityListView.swift in Sources */,
-				8A2D2C332BFE694E00FF9A63 /* UniversityListPresenter.swift in Sources */,
-				8A2D2C422BFE79D600FF9A63 /* UniversityDetailsPresenter.swift in Sources */,
 				8A2D2BD12BFE4FC000FF9A63 /* ViewController.swift in Sources */,
+				8A3FF06E2BFE999600C7B394 /* UniversityDetailsPresenter.swift in Sources */,
 				8A2D2C352BFE696A00FF9A63 /* UniversityListRouter.swift in Sources */,
 				8A2D2C372BFE69DF00FF9A63 /* UniversityRepository.swift in Sources */,
 				8A2D2BCD2BFE4FC000FF9A63 /* AppDelegate.swift in Sources */,
-				8A2D2C442BFE79EE00FF9A63 /* UniversityDetailsRouter.swift in Sources */,
+				8A3FF0702BFE999D00C7B394 /* UniversityDetailsView.swift in Sources */,
 				8A2D2C312BFE692800FF9A63 /* UniversityListInteractor.swift in Sources */,
 				8A2D2C402BFE79BB00FF9A63 /* UniversityDetailsInteractor.swift in Sources */,
 				8A2D2BCF2BFE4FC000FF9A63 /* SceneDelegate.swift in Sources */,
 				8A2D2C3C2BFE6AF300FF9A63 /* UniversityPersistenceModel.swift in Sources */,
+				8A3FF06A2BFE997900C7B394 /* UniversityListPresenter.swift in Sources */,
 				8A2D2C3A2BFE6A6200FF9A63 /* UniversitiesRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
